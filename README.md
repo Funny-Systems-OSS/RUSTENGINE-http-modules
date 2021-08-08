@@ -16,7 +16,7 @@ TBD
 
 ## Compares with Nginx
 
-||Nginx|RUSTENGINE-OSS|RUSTENGINE-Enterprise
+||Nginx (Open Source)|RUSTENGINE-OSS|RUSTENGINE-Enterprise
 |-|-|-|-
 |Secret Sauce|❌|✔|✔+
 
