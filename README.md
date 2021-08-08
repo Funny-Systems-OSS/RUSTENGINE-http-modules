@@ -25,7 +25,7 @@ TBD
 TBC
 
 ## About this Repository (RUSTENGINE-http-modules)
-base on Nginx 1.18 HTTP Module
+Based on Nginx-1.18 /src/http/modules/
 
 ## Contact Us
 RUSTENGINE@funny.systems
