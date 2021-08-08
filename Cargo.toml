@@ -1,8 +1,8 @@
 [package]
-name = "RustEngine_HTTP_Modules_OSS"
+name = "RUSTENGINE-http-modules"
 version = "0.1.0"
-authors = ["施華桐 <gundambox.shi@gmail.com>"]
-edition = "2018"
+authors = ["Funny Systems <RUSTENGINE@funny.systems>", "施華桐 <gundambox.shi@gmail.com>"]
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
