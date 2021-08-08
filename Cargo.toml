@@ -1,0 +1,18 @@
+[package]
+name = "RustEngine_HTTP_Modules_OSS"
+version = "0.1.0"
+authors = ["施華桐 <gundambox.shi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path = "src/lib.rs"
+crate_type = ["staticlib"]
+
+[dependencies]
+libc = "0.2"
+memoffset = "0.6.3"
+
+[build-dependencies]
+bindgen = "0.58.1"
