@@ -18,7 +18,7 @@ TBD
 
 ||Nginx (Open Source)|RUSTENGINE-OSS|RUSTENGINE-Enterprise
 |-|-|-|-
-|Secret Sauce|❌|✔|✔+
+|Secret Sauce|❌|✔|✔
 
 ## Build & Run
 
