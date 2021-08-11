@@ -29,32 +29,32 @@ TBD
 ### In a Nutshell
 |Features                  |Nginx<br>(Open Source)|RUSTENGINE-OSS|RUSTENGINE-Freeware|RUSTENGINE-Cloud|RUSTENGINE-Enterprise
 |:-------------------------|:--------------------:|:------------:|:-----------------:|:--------------:|:-------------------:
-|100% compatible with Nginx|✔                     |✔             |✔                 |✔               |✔
-|Support Sandbox           |❌                    |❌            |❌                |❌              |TODO
-|Cloud Native              |❌                    |❌            |❌                |TODO            |TODO
+|100% compatible with Nginx|-                     |✔️            |✔️                |✔️              |✔️
+|Support Sandbox           |❌                    |❌           |❌                 |❌             |TODO
+|Cloud Native              |❌                    |❌           |❌                 |TODO            |TODO
 
 ### Ported Modules (Minimum Viable Compiled)
 **Notice** : This repository only conclude minimum viable compiled version of HTTP Module, [more detail](#about-this-repository-rustengine-http-modules)
 |HTTP Module (src/http/modules)|Nginx<br>(Open Source)|RUSTENGINE-OSS|RUSTENGINE-Freeware|RUSTENGINE-Cloud|RUSTENGINE-Enterprise
 |:-----------------------------|:--------------------:|:------------:|:-----------------:|:--------------:|:-------------------:
-|Static                        |✔                     |✔             |✔                 |✔               |✔
-|Index                         |✔                     |✔             |✔                 |✔               |✔
-|Log                           |✔                     |✔             |✔                 |✔               |✔
-|Chunked Filter                |✔                     |✔             |✔                 |✔               |✔
-|Headers Filter                |✔                     |✔             |✔                 |✔               |✔
-|Range Filter                  |✔                     |✔             |✔                 |✔               |✔
-|Not Modified Filter           |✔                     |✔             |✔                 |✔               |✔
-|Try Files                     |✔                     |✔             |✔                 |✔               |✔
+|Static                        |✔️️                     |✔️             |✔️                 |✔️               |✔️
+|Index                         |✔️                     |✔️             |✔️                 |✔️               |✔️
+|Log                           |✔️                     |✔️             |✔️                 |✔️               |✔️
+|Chunked Filter                |✔️                     |✔️             |✔️                 |✔️               |✔️
+|Headers Filter                |✔️                     |✔️             |✔️                 |✔️               |✔️
+|Range Filter                  |✔️                     |✔️             |✔️                 |✔️               |✔️
+|Not Modified Filter           |✔️                     |✔️             |✔️                 |✔️               |✔️
+|Try Files                     |✔️                     |✔️             |✔️                 |✔️               |✔️
 
 ### Ported Modules (Extra)
 |HTTP Module (src/http/modules)|Nginx<br>(Open Source)|RUSTENGINE-OSS|RUSTENGINE-Freeware|RUSTENGINE-Cloud|RUSTENGINE-Enterprise
 |:-----------------------------|:--------------------:|:------------:|:-----------------:|:--------------:|:-------------------:
-|Rewrite                       |✔                     |❌            |✔                 |✔               |✔
-|Proxy                         |✔                     |❌            |❌                |TODO            |❌
-|SSL                           |✔                     |❌            |❌                |TODO            |TODO
-|Upstream Keepalive            |✔                     |❌            |❌                |TODO            |❌
-|Fast CGI(PHP)                 |✔                     |❌            |TODO               |❌             |TODO
-|WSGI (Python)                 |✔                     |              |                   |                |
+|Rewrite                       |✔️                     |❌            |✔️                 |✔️               |✔️
+|Proxy                         |✔️                     |❌            |❌                |TODO            |❌
+|SSL                           |✔️                     |❌            |❌                |TODO            |TODO
+|Upstream Keepalive            |✔️                     |❌            |❌                |TODO            |❌
+|Fast CGI(PHP)                 |✔️                     |❌            |TODO               |❌             |TODO
+|WSGI (Python)                 |✔️                     |              |                   |                |
 
 ### 🌶Special Sauce🌶
 |                              |Nginx<br>(Open Source)|RUSTENGINE-OSS|RUSTENGINE-Freeware|RUSTENGINE-Cloud|RUSTENGINE-Enterprise
